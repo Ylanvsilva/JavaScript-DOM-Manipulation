@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(110, 174, 204);
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            width: 1200px;
+            height: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            border: 1px solid rgb(255, 255, 255);
+            width: 200px;
+            height: 200px;
+            margin-right: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box button {
+            border: 1px solid rgb(255, 255, 255);
+            height: 30px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Event Listeners</h1>
+
+    <div class="container">
+        <div class="box">
+            <h3 id="heading">Example 1</h3>
+            <button onclick="alert('I love javascript')">Enter</button>
+        </div>
+        <div class="box">
+            <h3 id="heading">Example 2</h3>
+            <button class="btn-2">Enter</button>
+        </div>
+        <div class="box box-3">
+            <h3 id="heading">Example 3</h3>
+            <button class="btn-3">Enter</button>
+        </div>
+    </div>
+
+    <script src="event.js"></script>
+</body>
+</html>
